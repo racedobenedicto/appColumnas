@@ -25,7 +25,7 @@ class AppColumnas {
 			int widthTerminal = cols.getColumns();
 			System.out.println("Columnas Terminal: " + widthTerminal);
 		} catch (Exception ex){
-			System.out.println(ex);
+			ex.printStackTrace();
 		}	
 	}
 }
